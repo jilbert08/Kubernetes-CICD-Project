@@ -1,7 +1,7 @@
 // Simple Node.js web app (no external packages needed)
 const http = require('http');
 
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '2.0.0';
 const MESSAGE = 'Hello from the CI/CD pipeline!';
 
 function handler(req, res) {
