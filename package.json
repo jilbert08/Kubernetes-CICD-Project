@@ -1,0 +1,11 @@
+{
+  "name": "cicd-demo",
+  "version": "1.0.0",
+  "description": "Sample Node.js app deployed to Kubernetes with GitHub Actions",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test test/app.test.js"
+  },
+  "license": "MIT"
+}
